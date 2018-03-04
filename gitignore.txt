@@ -1,0 +1,33 @@
+# Master
+.DS_Store
+.project
+__MACOSX/
+*.swp
+*.swo
+release/
+ssl/
+tmp/
+
+# Dependency directories
+node_modules/
+
+# Docs
+docs/jsdoc/
+
+# Logs
+logs/*.log
+npm-debug.log
+tmux-client-*.log
+test/integration/logs/
+stacktrace*
+
+# IDE directories
+.vscode/
+.idea/
+Session.vim
+
+# Config files
+sftp-config.json
+test/integration/m10.integration.json
+test/integration/configs/
+
